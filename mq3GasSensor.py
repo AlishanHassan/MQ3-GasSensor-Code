@@ -9,3 +9,4 @@ while True:
     input = GPIO.input(3)
     print(input) #I don't think this outputs anything other than 0/1 0 might need to utilize the analog out to be useful
     time.sleep(1) #sleep for one second before the next reading
+
